@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes List</title>
+</head>
+
+<body>
+    <script>
+    (function() {
+        'use strict';
+
+        function displayQuotes() {
+            var quotes = ["Live for yourself.", "Work hard. Dream big.", "Life is short. Live passionately.", "Life is a one time offer, use it well.", "The trouble is you think you have time.", "Whatever you are, be a good one.", "Everything happens for a reason.", "Love the life you live, and live the life you love.", "Live each day as if it’s your last.", "Try and fail, but never fail to try."];
+            for (var i = 3; i <= quotes.length - 1; i++) {
+                console.log(quotes[i]);
+            }
+
+            function arryLength() {
+                var m = quotes.length;
+                alert("the length of the array:" + m);
+            }
+            arryLength();
+
+        }
+        displayQuotes();
+
+    })()
+    </script>
+</body>
+
+</html>
